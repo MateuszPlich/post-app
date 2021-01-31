@@ -7,6 +7,7 @@ import { AboutComponent } from './component/about/about.component';
 import { HomeComponent } from './component/home/home.component';
 import { PageNotFoundComponent } from './component/page-not-found/page-not-found.component';
 import { PostsListComponent } from './component/posts-list/posts-list.component';
+import { PostItemComponent } from './component/post-item/post-item.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { PostsListComponent } from './component/posts-list/posts-list.component'
     AboutComponent,
     HomeComponent,
     PageNotFoundComponent,
-    PostsListComponent
+    PostsListComponent,
+    PostItemComponent
   ],
   imports: [
     BrowserModule,
